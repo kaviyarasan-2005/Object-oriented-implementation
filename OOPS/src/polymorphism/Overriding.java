@@ -2,19 +2,21 @@ package polymorphism;
 
 public class Overriding {
 public static void main(String[] args ) {
-		V ref = new V();
-		ref.name();
+		K ref = new K();
+		ref.k();
 	}
 }
 class V{
-	void name() {
+	void name2() {
 		
 		System.out.println("Class V");
 	}
 }
 class K extends V{
 	void name() {
-		
 		System.out.println("Class K");
+	}
+	void k() {
+		name();
 	}
 }
