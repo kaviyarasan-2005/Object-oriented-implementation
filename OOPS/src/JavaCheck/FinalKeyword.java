@@ -2,9 +2,13 @@ package JavaCheck;
 
 public class FinalKeyword {
 	
+	static{
+		System.out.println("sdfgd");
+	}
 	public static void main(String[] args) {
-		final int a= 10;
-		
-		System.out.println(a);
+		name();
+	}
+	static void name() {
+		System.out.println("fddhfusyfusfsbf");
 	}
 }
