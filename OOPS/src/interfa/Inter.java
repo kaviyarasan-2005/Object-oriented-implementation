@@ -7,7 +7,7 @@ public class Inter {
 		ref.test2();
 		ref.name();
 		Demo.name1(1);
-		
+		Demo m = new A();
 	}
 }
 interface Demo{

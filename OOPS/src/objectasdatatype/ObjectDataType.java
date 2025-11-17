@@ -17,5 +17,6 @@ public class ObjectDataType {
 		Queue<Verify> name = new LinkedList<>();
 		name.add(ver);
 		System.out.println(name.poll());
+		
 	}
 }
