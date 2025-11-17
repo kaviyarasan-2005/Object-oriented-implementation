@@ -25,6 +25,8 @@ class DebitCard implements Payment{
 
 public class InterfaceFuture {
 	public static void main(String[] args) {
+		// define type interface but object is class
+		// for future scalable and its loosely coupled
 		Payment bill = new UpiPayments();
 		bill.pay(10);
 		bill = new CreditCard();
