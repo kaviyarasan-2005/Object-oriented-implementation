@@ -1,18 +1,27 @@
 package Abstraction;
 
-public class Abstract {
+public abstract class Abstract {
 	public static void main(String[] args) {
-		 Ab ref = new Ex();
-		 ref.name();
-		 
-		 
+		 Vehicle v;
+		 v = new Bike();
+		 v.start();
+		 v = new Car();
+		 v.start();
 	}
 }
- abstract class Ab{
-	 abstract void name();
-}
- class Ex extends Ab {
-	 void name() {
-		 System.out.println("System rajinikanth");
+ abstract class Vehicle{
+	abstract void start();
+	void fuel() {
+		System.out.println("Fuel Filled");
+	}
+ }
+ class Bike extends Vehicle{
+	 void start() {
+		 System.out.println("Bike Started.......");
 	 }
-}
+ }
+ class Car extends Vehicle{
+	 void start() {
+		 System.out.println("Car Started........");
+	 }
+ }
