@@ -8,6 +8,9 @@ public class OverLoading {
 		ref.test(3);
 		ref.test(2.333);
 	}
+	static  void name() {
+		System.out.println("sdgbfsdj");
+	}
 }
 class A{
 	void test(int a) {

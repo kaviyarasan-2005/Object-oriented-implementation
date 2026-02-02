@@ -17,6 +17,12 @@ class A{
 }
 class B extends A{
 	int m=20;
+	B(){
+		System.out.println("Class B is initiated");
+	}
+	B(String s){
+		System.out.println("Super "+s);
+	}
 	void run() {
 		System.out.println("Class B  " + k);
 		int val = test();
@@ -24,6 +30,15 @@ class B extends A{
 	}
 }
 class C extends B{
+	C(){
+//		super("kavi");
+		this("kavi");
+		System.out.println("Class C is initiated");
+		
+	}
+	C(String s){
+		System.out.println("this function "+s);
+	}
 	void pt() {
 		System.out.println("This C class extend B and B extends A "+k);
 	}

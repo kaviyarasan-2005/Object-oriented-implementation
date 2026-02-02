@@ -2,6 +2,9 @@ package interfa;
 interface Engine{
 	void start();
 }
+interface Egine2{
+	void stop();
+}
 class Petrol implements Engine{
 	public void start() {
 		System.out.println("Petrol engine start");
@@ -13,7 +16,7 @@ class Electric implements Engine{
 	}
 }
 
-public class Coupling {
+public class Coupling{
 	
 	public static void main(String[] args) {
 		Engine eng;
