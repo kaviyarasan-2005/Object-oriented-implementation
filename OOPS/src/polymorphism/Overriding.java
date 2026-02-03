@@ -7,12 +7,14 @@ public static void main(String[] args ) {
 	}
 }
 class V{
-	void name2() {
+	
+	void name() {
 		
 		System.out.println("Class V");
 	}
 }
 class K extends V{
+	@Override
 	void name() {
 		System.out.println("Class K");
 	}

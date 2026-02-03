@@ -23,10 +23,11 @@ public class ExceptionHandling {
 		}
 		System.out.println("Program end here");
 	}
-}
+}  
 
 class InputInvalidException extends Exception{
-	public InputInvalidException(String s) {
-		super(s);
+	 InputInvalidException(String s) {
+//		System.out.println(s);
+		 super(s);
 	}
 }

@@ -30,5 +30,11 @@ public class HomeDevices {
 		test.ThingToDo();
 		test = new MicroWaven();
 		test.ThingToDo();
+		String s = "sf";
+		StringBuilder str = new StringBuilder();
+		StringBuilder str1 = new StringBuilder("app");
+		str.append(str1);
+		str = str.append(s);
+		System.out.println(str);
 	}
 }
