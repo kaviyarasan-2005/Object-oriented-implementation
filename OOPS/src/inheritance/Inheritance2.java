@@ -31,6 +31,5 @@ class puppy extends Dog{
 public class Inheritance2 {
 		public static void main(String[] args) {
 			puppy p = new puppy();
-			
 		}
 }
