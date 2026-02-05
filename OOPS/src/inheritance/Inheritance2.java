@@ -14,7 +14,7 @@ class Dog extends Animal{
 		System.out.println("Dog without Dog");
 	}
 	Dog(String str){
-		super();
+//		super();
 		System.out.println("Dog");
 		
 	}
@@ -22,7 +22,7 @@ class Dog extends Animal{
 
 class puppy extends Dog{
 	puppy(){
-		super();
+//		super();
 		System.out.println("Can circus");
 		System.out.println(super.age);
 	}

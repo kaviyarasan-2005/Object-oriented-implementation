@@ -18,5 +18,15 @@ public class MulticatchInTry {
 		catch(InputMismatchException e) {
 			System.out.println(e);
 		}
+		catch(Exception e) {
+			System.out.println("Error occurs"+ e);
+		}
+		
+		try {
+			System.out.println("2nd try catch");
+		}
+		catch(Exception e) {
+			System.out.println("This will never work");
+		}
 	}
 }
